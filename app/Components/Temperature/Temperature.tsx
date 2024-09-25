@@ -73,12 +73,12 @@ function Temperature() {
                 <span>{name}</span>
                 <span>{navigation}</span>
             </p>
-            <p className="py-10 text-9xl font-bold self-c">{temp}°</p>
+            <p className="py-10 text-9xl font-bold self-center">{temp}°</p>
 
             <div className="">
                 <div className="">
                     <span>{getIcon()}</span>
-                    <p className=" pt-2  capitalize text-lg font-medium">{description}</p>
+                    <p className=" pt-2 capitalize text-lg font-medium">{description}</p>
                 </div>
                 <p className="flex items-center gap-2">
                     <span>Low: {minTemp}°</span>
