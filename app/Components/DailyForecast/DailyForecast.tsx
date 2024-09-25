@@ -18,6 +18,7 @@ function DailyForecast() {
     if (!forecast || !weather) {
         return <Skeleton className="h-[12rem] w-full" />
     }
+
     const today = new Date();
     const todayString = today.toISOString().split("T")[0];
 
@@ -27,6 +28,15 @@ function DailyForecast() {
     });
 
     const { main: weatherMain } = weather[0];
+
+    if (todaysForecast.length < 1) {
+        return (
+            <div className=" text-[2rem] h-[12rem] border rounded-lg flex gap-8
+       dark:bg-dark-grey shadow-sm dark:shadow-none col-span-full sm-2:col-span-2 md:col-span-2 xl:col-span-2 justify-center items-center">
+                No Data Avaialable
+            </div>
+        )
+    }
 
     const getIcon = () => {
         switch (weatherMain) {
