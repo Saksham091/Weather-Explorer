@@ -61,7 +61,12 @@ function Temperature() {
             setLocalTime(formatedTime);
             setCurrentDay(day);
         }, 1000);
-    }, []);
+        return() => {
+            if(interval){
+                clearInterval(interval)
+            }
+        }
+    }, [forecast]);
 
 
     return (
