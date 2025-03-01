@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Weather Explorer
 
-## Getting Started
+This is a Next.js project created with create-next-app.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Check out the deployed version of the app: 🔗 Weather Explorer
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🏠 Homepage
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* Provides users with detailed weather information.
+* Features a search bar allowing users to quickly find weather data for any city.
+* Designed with a user-friendly UI using Next.js, TypeScript, and Tailwind CSS.
 
-## Learn More
+## ☁️ Weather Details
 
-To learn more about Next.js, take a look at the following resources:
+* Displays current weather conditions, including temperature, humidity, pressure, and visibility.
+* Shows hourly predictions and next 5 days' forecasts.
+* Includes UV index, air pollution status, wind speed, and population data.
+* Integrated map feature to visualize the selected city's location.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+* Next.js (React Framework)
+* TypeScript
+* Tailwind CSS (For styling)
+* OpenWeather API (Data source for weather information)
+* Mapbox API (For map integration)
+* Vercel (Hosting & deployment)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Explore real-time weather data with Weather Explorer! If you have any questions or suggestions, feel free to contribute. ✨
