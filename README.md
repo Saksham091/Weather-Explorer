@@ -30,4 +30,4 @@ Check out the deployed version of the app: 🔗 Weather Explorer
 * Mapbox API (For map integration)
 * Vercel (Hosting & deployment)
 
-Explore real-time weather data with Weather Explorer! If you have any questions or suggestions, feel free to contribute. ✨
+Explore real-time weather data with Weather Explorer!. ✨
