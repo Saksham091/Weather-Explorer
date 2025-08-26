@@ -1,6 +1,6 @@
 # Weather Explorer
 
-Weather Explorer is a single-page application that provides users with detailed weather information, including real-time weather conditions, air pollution status, wind speed, and more. If you're looking for accurate and comprehensive weather insights, Weather Explorer has got you covered. The website serves as a centralized hub for weather data, offering forecasts, UV index, and interactive map visualization for any city.
+Weather Explorer is a application that provides users with detailed weather information, including real-time weather conditions, air pollution status, wind speed, and more. If you're looking for accurate and comprehensive weather insights, Weather Explorer has got you covered. The website serves as a centralized hub for weather data, offering forecasts, UV index, and interactive map visualization for any city.
 
 ## 🚀 Live Demo
 
